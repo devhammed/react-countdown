@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "prebuild": "rm -rf dist",
-    "build": "parcel build --public-url ./ src/index.html",
+    "build": "parcel build --public-url './' src/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -m 'build: updates to the demo'"
   },
